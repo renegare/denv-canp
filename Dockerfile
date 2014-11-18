@@ -22,7 +22,7 @@ RUN curl -sL https://rpm.nodesource.com/setup | bash - && \
         php-pecl-memcached \
         php-mbstring httpd \
         sudo which tar ntp \
-        nodejs make curl git \
+        nodejs make curl git mysql \
         python-setuptools && \
         easy_install pip && \
         pip install supervisor==3.1.2 && \
