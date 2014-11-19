@@ -21,7 +21,7 @@ RUN curl -sL https://rpm.nodesource.com/setup | bash - && \
         php-pecl-memcache \
         php-pecl-memcached \
         php-mbstring httpd \
-        sudo which tar ntp \
+        sudo which tar ntp bzip2 \
         nodejs make curl git mysql \
         python-setuptools && \
         easy_install pip && \
